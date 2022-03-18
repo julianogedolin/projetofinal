@@ -1,0 +1,56 @@
+div .a {
+    border: 1px solid black
+}
+
+header {
+    height: 15vh
+}
+
+footer {
+    height: 4vh;
+}
+
+.bordertitle {
+    border-radius: 5px;
+    border-top: 3px solid #FA8E0E;
+    border-bottom: 3px solid #FA8E0E;
+}
+
+.bordercard {
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    border-top: 3px solid rgb(226, 226, 226);
+    border-right: 3px solid rgb(226, 226, 226);
+}
+
+.bordercapa {
+    border-radius: 5px;
+    border-left: 3px solid #FA8E0E;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerend {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+}
+.errorInput {
+    border: 1px solid rgb(250, 145, 145) !important;
+}
+
+.successInput {
+    border: 1px solid rgb(128, 235, 128) !important;
+}
+
+span {
+    font-size: 12px;
+    color: red
+}
